@@ -1,8 +1,8 @@
 FROM node:18-alpine
-WORKDIR /usr/src/app
+WORKDIR /github-actions
 COPY package*.json ./
 RUN npm install
 COPY . .
 ENV PORT=3000
-CMD [ "node", "app.js" ]
+CMD [ "node", "server.js" ]
 
