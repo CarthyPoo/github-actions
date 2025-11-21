@@ -16,5 +16,18 @@
     "mocha": "^10.3.0",
     "should": "^13.2.3",
     "supertest": "^6.3.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarthyPoo/github-actions.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CarthyPoo/github-actions/issues"
+  },
+  "homepage": "https://github.com/CarthyPoo/github-actions#readme"
 }
